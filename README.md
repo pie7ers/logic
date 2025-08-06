@@ -1,1 +1,8 @@
-## Solvin Logical Programin Problems
+# Solving Logic Programing Problems
+
+## INIT
+
+run the following steps:
+
+- npm i
+- npm run cli

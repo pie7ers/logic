@@ -1,0 +1,28 @@
+# Ignore node_modules
+node_modules
+package-lock*
+
+# Ignore MAC system files
+.DS_Store
+.DS_store
+
+#experiment folders
+MyTests
+
+#TestData
+TestDataFile
+
+#BIN
+Bin
+bin
+
+# Vscode generated
+#/.vscode/
+/.idea/
+
+volumes
+
+# Logs
+logs
+*.log
+npm-debug.log*
