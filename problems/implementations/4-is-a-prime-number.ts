@@ -1,4 +1,4 @@
-import { isValidBigInt } from "../utils/numbers";
+import { isValidBigInt } from "../../utils/numbers";
 
 export const isPrimeProblem = `
 Write a function that receives a number and returns whether it is prime or not
