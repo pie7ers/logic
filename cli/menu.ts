@@ -36,6 +36,10 @@ async function mainMenu() {
         getSubMenuAreaOfPolygons();
         await problems.getAreOfAPolygon.main()
         break;
+      case '6':
+        console.log(problems.printNextFollowingThirtyLeapYears.problem);
+        problems.printNextFollowingThirtyLeapYears.main()
+        break;
       case 'exit':
         running = false;
         break;

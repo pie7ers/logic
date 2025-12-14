@@ -3,6 +3,7 @@ import { isAnAnagram, isAnAnagramProblem } from '../problems/implementations/2-i
 import { fibonacci, fibonacciProblem } from '../problems/implementations/3-fibonacci';
 import { isPrime, isPrimeProblem } from '../problems/implementations/4-is-a-prime-number';
 import { getAreOfAPolygonProblem, getAreOfAPolygon } from '../problems/implementations/5-get-area-of-polygons';
+import { isLeapYearProblem, printNextFollowingThirtyLeapYears } from '../problems/implementations/6-is-leap-year'
 
 type AnyFunction = (...args: any[]) => any
 
@@ -16,4 +17,5 @@ export const problems = {
   fibonacci: createProblem(fibonacciProblem, fibonacci),
   isAPrimeNumber: createProblem(isPrimeProblem, isPrime),
   getAreOfAPolygon: createProblem(getAreOfAPolygonProblem, getAreOfAPolygon),
+  printNextFollowingThirtyLeapYears: createProblem(isLeapYearProblem, printNextFollowingThirtyLeapYears),
 }

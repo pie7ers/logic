@@ -15,6 +15,7 @@ export function getTextMenu() {
   console.log('3. print the first 50 numbers of Fibonacci Sequence');
   console.log('4. is a prime number?');
   console.log('5. get the are of a polygon');
+  console.log('6. get the next 30 leap years');
 }
 
 export async function getSubMenuAreaOfPolygons() {
